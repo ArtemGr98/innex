@@ -1,0 +1,10 @@
+.top {
+    &_title {
+        position: relative;
+        &_wrapper {
+            position: absolute;
+            top: 20px;
+            right: 0;
+        }
+    }
+}

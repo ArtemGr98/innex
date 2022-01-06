@@ -1,0 +1,116 @@
+.top {
+    &_title {
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 15% 28%;
+        text-align: center;
+        &_wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &_1 {
+            font-size: 90px;
+            line-height: 105px;
+            white-space: nowrap;
+            font-weight: bold;
+        }
+        &_1-white {
+            font-size: 90px;
+            line-height: 105px;
+            white-space: nowrap;
+            font-weight: bold;
+            span {
+                opacity: 0.2;
+            }
+        }
+        &_2 {
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 300;
+        }
+    }
+    &_img {
+        display: flex;
+        margin-left: 20px;
+        width: calc(100% - 20px);
+        &__block_1 {
+            width: 40%;
+            border-left: 2px solid #959595;
+            border-bottom: 2px solid #959595;
+            box-sizing: border-box;
+            border-radius: 2px;
+            margin-top: 20px;
+            padding: 12px 0 33px 30px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__block_2 {
+            width: 40%;
+            position: absolute;
+            //top: -293px;
+            top: -50%;
+            left: 40%;
+            margin-left: 48px;
+
+            &_wrapper {
+                border: 1px solid #FFFFFF;
+                padding: 39px 36px 0 36px;
+            }
+            img {
+                margin-top: 15px;
+                width: 100%;
+                height: 100%;
+                padding-bottom: 30px;
+                object-fit: cover;
+                border-bottom: 2px solid #959595;
+            }
+            
+        }
+    }
+    &_social {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        &__line {
+            position: absolute;
+            left: 20px;
+            width: 0px;
+            height: 430px;
+            border: 1px solid #FFFFFF;
+            opacity: 0.5;
+            &_1 {
+                top: -460px;
+            }
+            &_2 {
+                top: 120px;
+            }
+        }
+    }
+}
+
+.block__text {
+    max-width: 448px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    font-weight: 300;
+    &_2 {
+        margin-top: 30px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 23px;
+        color: #1F1B20;
+        padding: 0 36px;
+    }
+}
+
+.btn_wrapper {
+    margin-top: 40px;
+}

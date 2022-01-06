@@ -19,4 +19,4 @@ import '../components/common_componentc/footer/index'
 import '../components/common_componentc/top/index'
 // import '../components/common_componentc/form_action/index'
 
-import '../components/pages/index/index'
+import '../components/pages/team/index'
