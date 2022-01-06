@@ -13,10 +13,12 @@
             font-size: 90px;
             line-height: 105px;
             white-space: nowrap;
+            font-weight: bold;
         }
         &_2 {
             font-size: 30px;
             line-height: 35px;
+            font-weight: 300;
         }
     }
     &_social {
@@ -82,6 +84,75 @@
     }
 }
 
+.steps {
+    &__title {
+        margin: 100px 0 30px 0;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #1F1B20;
+        font-weight: 500;
+        text-align: center;
+    }
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_item {
+        width: 23%;
+        padding: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+        &__number {
+            position: absolute;
+            bottom: 0;
+            font-size: 150px;
+            line-height: 176px;
+            text-transform: uppercase;
+            color: #E0E0E0;
+            display: flex;
+        }
+        &__img {
+            position: relative;
+            height: 50%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            margin-top: 50px;
+            padding: 5%;
+            font-size: 20px;
+            line-height: 23px;
+            color: #1F1B20;
+        }
+    }
+    &_btn {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        .steps_btn__block {
+            margin-right: 15px;
+        }
+        .portfolio__btn {
+            a {
+                background: #FFFFFF;
+                box-shadow: 0px 10px 20px rgba(242, 201, 76, 0.2);
+                color: #1F1B20;
+                font-size: 15px;
+                line-height: 18px;
+                text-transform: uppercase;
+                cursor: pointer;
+                padding: 21px 30px;
+                border: 1px solid #000000;
+            }
+        }
+    }
+}
+
 .block__text {
     max-width: 448px;
     font-size: 20px;
@@ -89,6 +160,7 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
+    font-weight: 300;
     &_2 {
         margin-top: 30px;
         width: 100%;

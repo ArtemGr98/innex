@@ -86,6 +86,34 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../components/common_componentc/footer/index.js":
+/*!*******************************************************!*\
+  !*** ../components/common_componentc/footer/index.js ***!
+  \*******************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/common_componentc/footer/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ }),
+
+/***/ "../components/common_componentc/footer/index.scss":
+/*!*********************************************************!*\
+  !*** ../components/common_componentc/footer/index.scss ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+    if(false) { var cssReload; }
+  
+
+/***/ }),
+
 /***/ "../components/common_componentc/header/index.js":
 /*!*******************************************************!*\
   !*** ../components/common_componentc/header/index.js ***!
@@ -1047,7 +1075,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_module_modal_script_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/module/modal_script/index */ "../components/module/modal_script/index.js");
 /* harmony import */ var _components_interface_category_section_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/interface/category_section/index */ "../components/interface/category_section/index.js");
 /* harmony import */ var _components_common_componentc_header_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/common_componentc/header/index */ "../components/common_componentc/header/index.js");
-/* harmony import */ var _components_pages_index_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/pages/index/index */ "../components/pages/index/index.js");
+/* harmony import */ var _components_common_componentc_footer_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/common_componentc/footer/index */ "../components/common_componentc/footer/index.js");
+/* harmony import */ var _components_pages_index_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/pages/index/index */ "../components/pages/index/index.js");
 // script interface
 
 
@@ -1059,8 +1088,8 @@ __webpack_require__.r(__webpack_exports__);
 
  // script pages
 
- //import '../components/common_componentc/footer/index'
-// import '../components/common_componentc/form_action/index'
+
+ // import '../components/common_componentc/form_action/index'
 
 
 
