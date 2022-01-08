@@ -39,7 +39,8 @@ module.exports = {
     context: path.resolve(__dirname, 'development/pages'),
     entry: {
         index: './index.js',
-        team: './team.js'
+        team: './team.js',
+        architect: './architect.js'
     },
     output: {
         filename: '[name]/index.js',
