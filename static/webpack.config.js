@@ -40,7 +40,8 @@ module.exports = {
     entry: {
         index: './index.js',
         team: './team.js',
-        architect: './architect.js'
+        architect: './architect.js',
+        design: './design.js'
     },
     output: {
         filename: '[name]/index.js',

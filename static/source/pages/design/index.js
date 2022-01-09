@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./architect.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./design.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1086,25 +1086,25 @@ function nova_pochta() {
 
 /***/ }),
 
-/***/ "../components/pages/architect/index.js":
-/*!**********************************************!*\
-  !*** ../components/pages/architect/index.js ***!
-  \**********************************************/
+/***/ "../components/pages/design/index.js":
+/*!*******************************************!*\
+  !*** ../components/pages/design/index.js ***!
+  \*******************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/pages/architect/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/pages/design/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
 
 
 /***/ }),
 
-/***/ "../components/pages/architect/index.scss":
-/*!************************************************!*\
-  !*** ../components/pages/architect/index.scss ***!
-  \************************************************/
+/***/ "../components/pages/design/index.scss":
+/*!*********************************************!*\
+  !*** ../components/pages/design/index.scss ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1114,10 +1114,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./architect.js":
-/*!**********************!*\
-  !*** ./architect.js ***!
-  \**********************/
+/***/ "./design.js":
+/*!*******************!*\
+  !*** ./design.js ***!
+  \*******************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1134,7 +1134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_common_componentc_footer_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/common_componentc/footer/index */ "../components/common_componentc/footer/index.js");
 /* harmony import */ var _components_common_componentc_top_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/common_componentc/top/index */ "../components/common_componentc/top/index.js");
 /* harmony import */ var _components_common_componentc_plans_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/common_componentc/plans/index */ "../components/common_componentc/plans/index.js");
-/* harmony import */ var _components_pages_architect_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/pages/architect/index */ "../components/pages/architect/index.js");
+/* harmony import */ var _components_pages_design_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/pages/design/index */ "../components/pages/design/index.js");
 // script interface
 
 

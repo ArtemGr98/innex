@@ -20,4 +20,4 @@ import '../components/common_componentc/top/index'
 import '../components/common_componentc/plans/index'
 // import '../components/common_componentc/form_action/index'
 
-import '../components/pages/architect/index'
+import '../components/pages/design/index'
