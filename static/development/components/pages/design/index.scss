@@ -1,6 +1,6 @@
 .block_img_33-perc {
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     &__item {
         width: 33.3%;
         img {
@@ -10,7 +10,7 @@
     }
 }
 
-.block_img_33-perc {
+.block_img_100-perc {
     display: flex;
     &__item {
         width: 100%;

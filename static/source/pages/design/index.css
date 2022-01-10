@@ -1349,19 +1349,18 @@ input::-webkit-inner-spin-button {
       height: 100%; }
 
 .block_img_33-perc {
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
   .block_img_33-perc__item {
     width: 33.3%; }
     .block_img_33-perc__item img {
       width: 100%;
       height: 100%; }
 
-.block_img_33-perc {
+.block_img_100-perc {
   display: flex; }
-  .block_img_33-perc__item {
+  .block_img_100-perc__item {
     width: 100%; }
-    .block_img_33-perc__item img {
+    .block_img_100-perc__item img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
