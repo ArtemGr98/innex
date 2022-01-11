@@ -1,5 +1,5 @@
 .top {
-    height: 45.5vw;
+    //height: 45.5vw;
     min-height: 400px;
     width: 100%;
     position: relative;
@@ -41,6 +41,9 @@
         }
     }
     &_social {
+        @media (max-width: 800px) {
+            display: none;
+        }
         display: flex;
         flex-direction: column;
         position: absolute;

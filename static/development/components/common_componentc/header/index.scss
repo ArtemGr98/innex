@@ -1,13 +1,41 @@
 .header {
+    @media (max-width: 992px) {
+        padding: 0;
+    }
     position: fixed;
     top: 0;
     background: #1F1B20;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     z-index: 100;
+    &_main {
+        @media (max-width: 992px) {
+            display: none;
+            position: fixed;
+            flex-direction: column;
+            top: 104px;
+            background: black;
+            width: 90%;
+            height: 100%;
+            &.active {
+                display: flex;
+            }
+
+        }
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &_mob {
+        @media (max-width: 992px) {
+            display: flex;
+            //justify-content: space-between;
+        }
+        display: none;
+    }
     &_sections {
         a {
+            @media (max-width: 992px) {
+                color: #F2C94C;
+            }
             color: #828282;
             font-size: 15px;
             line-height: 18px;
@@ -22,6 +50,65 @@
         }
     }
     &_logo {
+        @media (max-width: 992px) {
+            margin: 0 auto;
+        }
         padding: 10px 0 12px 0;
+    }
+    &_hamburger {
+        overflow: hidden;
+        position: relative;
+        margin-left: 30px;
+        top: 30px;
+        width: 50px;
+        height: 50px;
+        //background: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &_line {
+        transition: all .2s;
+        position: absolute;
+        //width: 21px;
+        width: 100%;
+        height: 3px;
+        border-radius: 18px;
+        margin: 4px 0;
+        cursor: pointer;
+        background: #F2C94C;
+        &_1 {
+            top: 10px;
+            //left: 14px;
+        }
+        &_2 {
+            top: 22px;
+            //left: 14px;
+        }
+        &_3 {
+            top: 34px;
+            //left: 14px;
+        }
+    }
+}
+
+.header {
+    &.active {
+        .header_line {
+            &_1 {
+                top: 22px;
+                //left: 15px;
+                transform: rotate(45deg);
+            }
+            &_2 {
+                left: -100px;
+            }
+            &_3 {
+                top: 22px;
+                //left: 15px;
+                transform: rotate(-45deg);
+            }
+        }
     }
 }

@@ -62,10 +62,15 @@
                 text-align: center;
             }
             .sections_container {
+                @media (max-width: 600px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
                 display: flex;
                 justify-content: space-around;
                 margin-top: 40px;
                 &__item {
+                    margin-right: 10px;
                     a {
                         color: #828282;
                         font-size: 15px;

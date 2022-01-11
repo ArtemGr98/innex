@@ -127,6 +127,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
 
 
+window.onload = function () {
+  var menu_btn = document.querySelector('.header_hamburger');
+  menu_btn.addEventListener("click", menu_action);
+
+  function menu_action() {
+    var header_navigation = document.querySelector('.header');
+    header_navigation.classList.toggle('active');
+    document.querySelector('.header_main').classList.toggle('active');
+  }
+};
+
+if (document.documentElement.clientWidth < 992) {
+  document.querySelector('.header_mob').append(document.querySelector('.header_logo'));
+}
+
+window.addEventListener('resize', function () {
+  if (document.documentElement.clientWidth < 992) {
+    document.querySelector('.header_mob').append(document.querySelector('.header_logo'));
+  } else {
+    document.querySelector('.after_logo').after(document.querySelector('.header_logo'));
+  }
+});
+
 /***/ }),
 
 /***/ "../components/common_componentc/header/index.scss":
