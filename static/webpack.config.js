@@ -41,7 +41,9 @@ module.exports = {
         index: './index.js',
         team: './team.js',
         architect: './architect.js',
-        design: './design.js'
+        design: './design.js',
+        portfolio: './portfolio.js',
+        contacts: './contacts.js',
     },
     output: {
         filename: '[name]/index.js',

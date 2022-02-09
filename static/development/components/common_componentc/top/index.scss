@@ -140,7 +140,37 @@
         object-fit: cover;
         border-bottom: 2px solid #959595;
     }
-    
+}
+
+.top_img__block_3 {
+    position: absolute;
+    width: 50%;
+    //top: -50%;
+    //top: -280px;
+    left: 45%;
+    margin: 20px 0 0 70px;
+
+    &_wrapper {
+        @media (max-width: 900px) {
+            padding: 20px 20px 0 20px;
+        }
+        @media (max-width: 600px) {
+            padding: 10px 10px 0 10px;
+        }
+        border: 1px solid #FFFFFF;
+        padding: 39px 36px 0 36px;
+        text-align: start;
+        .img1 {
+            margin-top: 15px;
+            width: 80%;
+            object-fit: cover;
+        }
+        .img2 {
+            margin-top: 15px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .block__text {
