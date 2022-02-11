@@ -1092,19 +1092,17 @@ function nova_pochta() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/pages/index/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
-
-
-if (document.documentElement.clientWidth < 1400) {
-  document.querySelector('.top_img').append(document.querySelector('.block__text_2'));
-}
-
-window.addEventListener('resize', function () {
-  if (document.documentElement.clientWidth < 1400) {
-    document.querySelector('.top_img').append(document.querySelector('.block__text_2'));
-  } else {
-    document.querySelector('.top_img__block_2').append(document.querySelector('.block__text_2'));
-  }
-});
+ // if (document.documentElement.clientWidth < 1400) {
+//     document.querySelector('.top_img').append(document.querySelector('.block__text_2')) 
+// }
+// window.addEventListener('resize', () => {
+//     if (document.documentElement.clientWidth < 1400) {
+//         document.querySelector('.top_img').append(document.querySelector('.block__text_2')) 
+//     }
+//     else {
+//         document.querySelector('.top_img__block_2').append(document.querySelector('.block__text_2')) 
+//     }
+// })
 
 /***/ }),
 
