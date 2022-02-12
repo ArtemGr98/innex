@@ -205,6 +205,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "../components/common_componentc/plans/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);
 
+var swiper = new Swiper(".plans", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  breakpoints: {
+    1200: {
+      slidesPerView: 3
+    },
+    // 992: {
+    //     slidesPerView: 2,
+    // },
+    600: {
+      slidesPerView: 2
+    },
+    300: {
+      slidesPerView: 1
+    }
+  }
+});
 
 /***/ }),
 

@@ -1279,7 +1279,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     top: 300px;
     left: 30%; }
-    @media (max-width: 1200px) {
+    @media (max-width: 1400px) {
       .top_title {
         left: 20%; } }
     @media (max-width: 992px) {
@@ -1436,33 +1436,21 @@ input::-webkit-inner-spin-button {
   margin-top: 40px; }
 
 .plans {
-  display: flex;
-  margin-top: 100px; }
-  @media (max-width: 800px) {
+  margin-top: 100px;
+  height: 100%; }
+  @media (max-width: 992px) {
     .plans {
-      margin-top: 0px; } }
+      margin-top: 70px; } }
   .plans_wrapper {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    flex-wrap: wrap;
     margin-left: 70px;
-    width: calc(100% - 70px);
     height: 100%; }
     @media (max-width: 800px) {
       .plans_wrapper {
         margin-left: 0px;
         width: 100%; } }
   .plans_card {
-    width: 30%;
-    height: auto; }
-    @media (max-width: 1300px) {
-      .plans_card {
-        width: 45%;
-        margin-bottom: 120px; } }
-    @media (max-width: 800px) {
-      .plans_card {
-        width: 100%; } }
+    height: 100%; }
     .plans_card__title {
       font-size: 30px;
       line-height: 35px;
@@ -1471,15 +1459,21 @@ input::-webkit-inner-spin-button {
       font-weight: bold;
       margin-bottom: 30px;
       text-align: center; }
+      @media (max-width: 992px) {
+        .plans_card__title {
+          margin-bottom: 10px; } }
     .plans_card_wrapper {
-      height: 88%;
+      height: 75%;
       padding: 15%;
       background: rgba(0, 0, 0, 0.6);
       border: 1px solid #FFFFFF;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; }
+      box-sizing: border-box; }
+      @media (max-width: 992px) {
+        .plans_card_wrapper {
+          padding: 5%; } }
+      @media (max-width: 500px) {
+        .plans_card_wrapper {
+          padding: 0%; } }
     .plans_card_services li {
       font-size: 18px;
       line-height: 21px;
@@ -1497,6 +1491,9 @@ input::-webkit-inner-spin-button {
     .plans_card__btn {
       margin-top: 50px;
       text-align: center; }
+      @media (max-width: 992px) {
+        .plans_card__btn {
+          margin-top: 30px; } }
 
 .block_img {
   margin-top: 150px;

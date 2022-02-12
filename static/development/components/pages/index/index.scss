@@ -9,12 +9,12 @@
         text-align: center;
     }
     &_wrapper {
-        @media (max-width: 1100px) {
-            justify-content: center;
-        }
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        // @media (max-width: 1100px) {
+        //     justify-content: center;
+        // }
+        //display: flex;
+        //justify-content: space-between;
+        //flex-wrap: wrap;
     }
     &_item {
         @media (max-width: 1100px) {
@@ -27,6 +27,7 @@
             margin-right: 0px;
         }
         width: 23%;
+        height: auto;
         padding: 25px;
         background: #FFFFFF;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
@@ -70,6 +71,7 @@
         justify-content: center;
         .steps_btn__block {
             margin-right: 15px;
+            height: 60px;
         }
         .portfolio__btn {
             a {

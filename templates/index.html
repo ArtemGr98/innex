@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="/static/source/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/static/source/lib/swiper/swiper.css">
     <link rel="stylesheet" href="/static/source/pages/index/index.css">
 </head>
 <body>
@@ -119,12 +120,12 @@
         </div>
     </section>
 
-    <section class="steps container">
+    <section class="steps container swiper-container">
         <div class="steps__title">
             Етапи роботи
         </div>
-        <div class="steps_wrapper">
-            <div class="steps_item">
+        <div class="steps_wrapper swiper-wrapper">
+            <div class="steps_item swiper-slide">
                 <div class="steps_item__img">
                     <div class="steps_item__number">1</div>
                     <img src="/static/source/img/index/stages-work/Rectangle 12.png" alt="">
@@ -133,7 +134,7 @@
                     Наш менеджер зв’жеться із вами, для обговорення та узгодження усіх деталей
                 </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item swiper-slide">
                 <div class="steps_item__img">
                     <div class="steps_item__number">2</div>
                     <img src="/static/source/img/index/stages-work/Rectangle 12 (1).png" alt="">
@@ -142,7 +143,7 @@
                     Зустріч із дизайнерами чи архітекторами безпосередньо на об’єкті
                 </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item swiper-slide">
                 <div class="steps_item__img">
                     <div class="steps_item__number">3</div>
                     <img src="/static/source/img/index/stages-work/Rectangle 12 (2).png" alt="">
@@ -151,7 +152,7 @@
                     Підписання договору про співпрацю
                 </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item swiper-slide">
                 <div class="steps_item__img">
                     <div class="steps_item__number">4</div>
                     <img src="/static/source/img/index/stages-work/Rectangle 13.png" alt="">
@@ -267,7 +268,8 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="/static/source/lib/swiper/swiper.js"></script>
     <script src="/static/source/pages/index/index.js"></script>
 
 </body>
