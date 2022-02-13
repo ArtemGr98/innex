@@ -971,15 +971,14 @@ input::-webkit-inner-spin-button {
   margin-bottom: 30px; }
   .input_section__title {
     color: #333333;
-    font-size: 14px;
-    margin: 0 0 5px 25px; }
+    font-size: 14px; }
   .input_section input {
     width: 100%;
     border: 1px solid #E0E0E0;
-    border-radius: 8px;
     box-sizing: border-box;
     height: 48px;
-    padding: 15px 24px; }
+    padding: 15px 24px;
+    color: #333333; }
   .input_section textarea {
     width: 100%;
     border: 1px solid #F2F2F2;
@@ -1435,12 +1434,38 @@ input::-webkit-inner-spin-button {
 .btn_wrapper {
   margin-top: 40px; }
 
+.team_block {
+  display: flex;
+  flex-wrap: wrap; }
+  .team_block__item {
+    width: 50%;
+    padding: 50px;
+    text-align: center; }
+    @media (max-width: 992px) {
+      .team_block__item {
+        padding: 10px; } }
+    @media (max-width: 700px) {
+      .team_block__item {
+        width: 100%; } }
+    .team_block__item .block_img img {
+      width: 100%;
+      max-height: 600px;
+      object-fit: contain; }
+  .team_block .block_2 {
+    text-align: left;
+    padding-top: 100px; }
+
 .top_title {
-  position: relative; }
-  .top_title_wrapper {
-    position: absolute;
-    top: 20px;
-    right: 0; }
+  top: 100px; }
+
+.section_black {
+  background: linear-gradient(#1F1B20 60%, white 40%); }
+
+.section_first {
+  margin-top: -450px; }
+  @media (max-width: 992px) {
+    .section_first {
+      margin-top: -250px; } }
 
 
 /*# sourceMappingURL=index.css.map*/

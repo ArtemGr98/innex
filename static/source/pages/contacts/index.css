@@ -971,15 +971,14 @@ input::-webkit-inner-spin-button {
   margin-bottom: 30px; }
   .input_section__title {
     color: #333333;
-    font-size: 14px;
-    margin: 0 0 5px 25px; }
+    font-size: 14px; }
   .input_section input {
     width: 100%;
     border: 1px solid #E0E0E0;
-    border-radius: 8px;
     box-sizing: border-box;
     height: 48px;
-    padding: 15px 24px; }
+    padding: 15px 24px;
+    color: #333333; }
   .input_section textarea {
     width: 100%;
     border: 1px solid #F2F2F2;
@@ -1435,6 +1434,16 @@ input::-webkit-inner-spin-button {
 .btn_wrapper {
   margin-top: 40px; }
 
+.contact-us {
+  max-width: 500px;
+  background: #FFFFFF;
+  padding: 60px; }
+
+.top_title {
+  top: 150px; }
+  .top_title_1 {
+    color: #FFFFFF;
+    opacity: 0.2; }
 
 
 /*# sourceMappingURL=index.css.map*/
